@@ -6,18 +6,12 @@ class Main extends React.Component {
     constructor(props) {
         super(props);
     }
-
     render() {
-        
         return (
             <div>
                 <BottomBar />
             </div>
-        );
+        )
     }
 }
-export default connect(
-    state => ({
-        
-    })
-)(Main);
+export default connect()(Main);
